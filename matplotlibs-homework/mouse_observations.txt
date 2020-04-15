@@ -1,0 +1,8 @@
+1. Despite being part of the 4 most promising regiments, Infubinol and Ceftamin
+had a much higher tumor volume than the other 2 in the set, Capomulin and Ramicane.
+
+2. The more weight a mouse has , the higher volume their average tumor was. This could be
+a correlation between how big the mouse is and how much material there is for the tumor.
+
+3. Specifically with Capomulin regime, it seems to work; however, near the end of treatment, 
+tumor volume increased again. Therefore, regimen effectiveness may not be guaranteed.

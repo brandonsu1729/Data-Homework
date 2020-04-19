@@ -1,0 +1,9 @@
+1. The closer you get to the equater, the hotter and drier it gets. This is not 
+very surprising.
+
+2. The northern hemisphere had a higher average wind speed than the south. Northern 
+hemisphere scatter showed higher MPH values.
+
+3. I've observed that there tends to be a larger majority of data in the Northern Hemisphere,
+than in the Southern Hemisphere. Whether this is intended or not, this could
+relate to there possibly being more cities above the Equator.

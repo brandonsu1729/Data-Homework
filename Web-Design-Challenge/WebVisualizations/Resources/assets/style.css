@@ -1,0 +1,10 @@
+.box{
+	color: white;
+	min-height: 50px;
+	font-size: 25px;
+	text-align: center;
+}
+
+.gray{
+	background: cornflowerblue;
+}

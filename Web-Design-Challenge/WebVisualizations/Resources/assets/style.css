@@ -4,6 +4,10 @@
 	font-size: 25px;
 	text-align: center;
 }
+.visualization{
+	position: absolute;
+	right: 5%;
+}
 
 .gray{
 	background: cornflowerblue;

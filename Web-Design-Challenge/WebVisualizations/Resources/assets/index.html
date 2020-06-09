@@ -10,14 +10,33 @@
 <body>
   <!--Header-->
   <div class = "container-fluid">
-    <div class = "col-md-3">
-      <div class = "box gray">
-        Latitude
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Latitude</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href = "comparisons.html">Comparisons</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class = "dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class = "dropdown-item" href = "temp.html">Temperature</a>
+              <a class = "dropdown-item" href = "humid.html">Humidity</a>
+              <a class = "dropdown-item" href = "cloud.html">Cloudiness</a>
+              <a class = "dropdown-item" href = "wind.html">Wind Speed</a>
+            </div>
+          </li>
+        </ul>
       </div>
-    </div>
+    </nav>
   </div> 
   <div class = "container-fluid">
-    <div class = "row">
+    <div class = "row spacing">
       <div class = "col-sm-6">
         <p> Summary: Latitude vs. X</p>
         <br>
@@ -28,15 +47,15 @@
         <div class = "row">
           Visualizations
         </div>
-        <a href = "temp.html" target = "__blank"><img src = "images/Fig1.png" width = 40% height = 30%></a>
-        <a href = "humid.html" target = "__blank"><img src = "images/Fig2.png" width = 40% height = 30%></a>
-        <a href = "cloud.html" target = "__blank"><img src = "images/Fig3.png" width = 40% height = 30%></a>
-        <a href = "wind.html" target = "__blank"><img src = "images/Fig4.png" width = 40% height = 30%></a>
+        <a href = "temp.html"><img src = "images/Fig1.png" width = 40% height = 30%></a>
+        <a href = "humid.html"><img src = "images/Fig2.png" width = 40% height = 30%></a>
+        <a href = "cloud.html"><img src = "images/Fig3.png" width = 40% height = 30%></a>
+        <a href = "wind.html"><img src = "images/Fig4.png" width = 40% height = 30%></a>
       </div>
     </div>
-    <div class = "row">
+    <div class = "row spacing ">
       <div class = "col-sm-6">
-        <a href = "comparisons.html" target = "__blank">Chart Comparisons</a>
+        <a href = "cities.html" target = "__blank">Weather Table!</a>
       </div>
     </div>
   </div>

@@ -3,6 +3,10 @@
 	min-height: 50px;
 	font-size: 25px;
 	text-align: center;
+	padding: 15px;
+}
+.spacing{
+	padding: 15px;
 }
 .visualization{
 	position: absolute;
@@ -11,4 +15,7 @@
 
 .gray{
 	background: cornflowerblue;
+}
+.ghostwhite {
+	background: #F8F8FF;
 }

@@ -11,3 +11,22 @@ zoomOffset: -1,
 id: 'mapbox/streets-v11',
 accessToken: 'pk.eyJ1IjoiYnJhbmRvbnN1MTcyOSIsImEiOiJja2MxOW9sMnoxYzZtMnh1NmloenhjeGJlIn0.tyWpIzFrDUUavXdzBsCbFQ'
 }).addTo(myMap);
+
+
+var link = "significant_month.geojson"
+var heatArray = [];
+d3.json(link, function(data){
+
+	for (var i = 0; i < data.features.length; i++){
+		var location = data.features[i].geometry.coordinates;
+
+		heatArray.push([location[1], location[0]]);
+		/*L.marker([data.features[i].geometry.coordinates[1], 
+			data.features[i].geometry.coordinates[0]],{
+			title: data.features[i].properties.place}).addTo(myMap);*/
+}})
+
+var heat = L.heatLayer(heatArray, {
+	radius: 50,
+	blur: 0
+}).addTo(myMap)

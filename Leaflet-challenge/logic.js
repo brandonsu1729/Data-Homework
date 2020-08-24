@@ -20,10 +20,7 @@ d3.json(link, function(data){
 	for (var i = 0; i < data.features.length; i++){
 		var location = data.features[i].geometry.coordinates;
 
-		heatArray.push([location[1], location[0]]);
-		/*L.marker([data.features[i].geometry.coordinates[1], 
-			data.features[i].geometry.coordinates[0]],{
-			title: data.features[i].properties.place}).addTo(myMap);*/
+		heatArray.push([location[1], location[0], data.features[i].properties.mag]);
 }})
 
 var heat = L.heatLayer(heatArray, {
